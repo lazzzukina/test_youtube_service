@@ -64,7 +64,6 @@ A small backend built with FastAPI and SQLModel (SQLAlchemy) that:
    ```dotenv
    DATABASE_URL=postgresql+asyncpg://postgres:password@db:5432/youtubedb
    YOUTUBE_API_KEY=your_google_cloud_api_key
-   YOUTUBE_API_URL=https://www.googleapis.com/youtube/v3/search
    WEBHOOK_SECRET=supersecret
    ```
 
