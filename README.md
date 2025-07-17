@@ -53,7 +53,7 @@ A small backend built with FastAPI and SQLModel (SQLAlchemy) that:
 1. **Clone the repo**  
    ```bash
    git clone <repo_url>
-   cd prod_youtube_service
+   cd test_youtube_service
    ```
 
 2. **Copy & edit environment file**  
