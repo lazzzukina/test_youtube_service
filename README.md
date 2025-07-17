@@ -10,7 +10,7 @@ A small backend built with FastAPI and SQLModel (SQLAlchemy) that:
 
 ---
 
-## 🔍 Project structure
+## Project structure
 
 ```
 .
@@ -42,13 +42,13 @@ A small backend built with FastAPI and SQLModel (SQLAlchemy) that:
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 - **Docker** (≥ 20.10)  
 - **Docker Compose** (v2 syntax)  
 ---
 
-## 🛠️ Setup & Run
+## Setup & Run
 
 1. **Clone the repo**  
    ```bash
@@ -87,7 +87,7 @@ A small backend built with FastAPI and SQLModel (SQLAlchemy) that:
 
 ---
 
-## 🚀 API Endpoints
+## API endpoints
 
 ### 1. Fetch & store videos
 
@@ -159,7 +159,7 @@ GET /videos/?min_views={min_views}&min_likes={min_likes}
 
 ---
 
-## 🧩 Code Highlights
+## Code Highlights
 
 - **FastAPI** for high‑performance async HTTP  
 - **SQLModel** (SQLAlchemy + Pydantic) for ORM & schema  
@@ -170,7 +170,7 @@ GET /videos/?min_views={min_views}&min_likes={min_likes}
 - **Docker Compose** spins up `db` (Postgres) + `web` (FastAPI)  
 ---
 
-## ✅ Testing & Quality
+## Testing
 
 - **Unit tests** with `pytest` and `pytest-asyncio`  
 - **Coverage** of:
@@ -183,12 +183,3 @@ Run tests:
 ```bash
 docker-compose exec web pytest --disable-warnings -q
 ```
-
----
-
-## 📚 Further Improvements
-
-- Swap mock `view_count`/`like_count` with real YouTube analytics data  
-- Add pagination to `GET /videos/`  
-- Integrate JWT auth for secure access  
-- Deploy to Kubernetes with Helm chart  
